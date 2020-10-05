@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif, monospace;
+}
+
+form {
+    width: 510px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50px;
+    position: static;
+}
+
+#fname, #lname, #message {
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+#genderM, #genderF {
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+#submit-btn {
+    float: right;
+    margin-right: 45px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    position: fixed;
+    margin-left: 203px;
+}
+
+.picRight {
+    float: right;
+    margin-top: 0px;
+    margin-left: 280px;
+    position: fixed;
+    width: 250px;
+    height: 265px;
+}
+
+.invalidInput {
+    border: 1px solid red;
+}
+
+#succes {
+    width: 610px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background-color:lightgreen;
+    
+}
